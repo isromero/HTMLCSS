@@ -1,0 +1,38 @@
+.padre {
+    background-color: brown;
+    width: 400px;
+    height: 400px;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    /*transition: transform 1s cubic-bezier(0.71,-0.05, 0.2, 0.97) 0.3s;*/
+    animation: traslacion 2s ease-in-out infinite forwards ;
+}
+
+.padre:hover .hijo {
+    /*transform:translateX(100%);
+    background-color: cornflowerblue; */
+    animation-play-state: paused;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: beige;
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateY(100%);
+    }
+    100% {
+        background-color: green;
+    }
+}

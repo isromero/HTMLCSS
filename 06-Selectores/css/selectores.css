@@ -1,0 +1,7 @@
+section.main .container p {
+    color: royalblue;
+}
+
+section.main .container #button-container {
+    color: rgb(80, 223, 248);
+}

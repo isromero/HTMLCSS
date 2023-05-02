@@ -1,0 +1,47 @@
+.colores {
+    color:aqua;
+}
+
+.color-hexadecimal {
+    color: #0e76d1;
+}
+
+.color-rgb {
+    color: rgb(12, 32, 250);
+}
+
+.color-rgba {
+    color: rgba(30, 250, 125, 0.4);
+}
+
+/*Fondos*/
+
+.fondo {
+    /*background-color: coral;*/
+    background-image: url("https://wallpapercave.com/wp/wp4775691.jpg");
+    background-position: left bottom;
+}
+
+.fondo-interno {
+    /*background-color: coral;*/
+    background-image: url("../03-Multimedia/descargas/monke.png");
+    background-position: left bottom;
+}
+
+.ancho {
+    background-color:cornflowerblue;
+    width: 100px;
+}
+
+.alto {
+    background-color:rgb(141, 120, 29);
+    height: 100px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    border-width: 1.5px;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 40px;
+}

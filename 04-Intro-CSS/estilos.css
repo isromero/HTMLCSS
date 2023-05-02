@@ -1,0 +1,44 @@
+h1 {
+    color: greenyellow;
+}
+
+/*ola*/
+
+p {
+    color: burlywood;
+    font-size: 15pt;
+}
+
+/*Así accedemos al id en general*/
+#noticia-1 {
+    color:brown;
+    font-size: 30pt;
+}
+
+/*Así accedemos al id solo de p*/
+p#noticia-2 {
+    color: wheat;
+    font-size: 20pt;
+}
+
+/*Así accedemos a una clase*/
+.encabezado {
+    font-size: 40pt;
+    text-transform: uppercase;
+    color: crimson;
+}
+
+/*Así accedemos a todos los elementos que no tengan nada puesto*/
+
+* {
+    color: black;
+}
+
+/*Así accedemos a todos los elementos que tengan la clase warning*/
+*.warning {
+    color: red;
+}
+
+.autor, .fecha, .ubicacion, h1, p#noticia-2 {
+    text-decoration: underline;
+}

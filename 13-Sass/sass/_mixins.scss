@@ -1,0 +1,8 @@
+$text-color: rosybrown;
+
+@mixin text-format($bg-color: #424143) {
+    width: 50rem;
+    color: $text-color;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}

@@ -1,0 +1,25 @@
+/*(1 , 0, 0)*/
+/*(0 , 1, 0)*/
+/*(0 , 0, 1)*/
+/*(0 , 0, 0)*/
+
+h1#h1-id\ h1-otroid.h1-class {
+    color: blanchedalmond;
+}
+
+h1#h1-id.h1-class {
+    color: rgb(41, 255, 13);
+}
+
+.h1-class {
+    color:yellow;
+}
+
+h1 {
+    /*INTENTAR EVITAR en la medida de lo posible el !important*/
+    color: blue !important ; /*EL QUINTO NIVEL DE ESPECIFIDAD*/
+}
+
+p {
+    color: red;
+}

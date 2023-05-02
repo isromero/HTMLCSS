@@ -1,0 +1,39 @@
+h1 {
+    color: brown;
+    font-size: 4rem;
+}
+
+p {
+    color: burlywood;
+    font-size: 2rem;
+}
+/* @media all and (maxwidth: 576px) */
+/* @media (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-height: 300px), (mind-width: 300px) {
+    h1 {
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media (orientation: landscape) {
+    p {
+        color: violet;
+    }
+}
